@@ -1,6 +1,12 @@
 .default {
 
 }
+.default:disabled {
+    color: hotpink;
+}
+.default:hover {
+    color: green;
+}
 
 .red {
     background: red;
