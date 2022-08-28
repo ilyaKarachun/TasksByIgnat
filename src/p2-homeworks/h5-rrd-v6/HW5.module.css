@@ -1,0 +1,25 @@
+.link {
+    text-decoration: none;
+}
+
+.active {
+    color: green;
+}
+
+.block {
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+
+.header {
+    display: flex;
+    width: 200px;
+    transition-duration: 1s;
+    transform: translate(-180px);
+}
+
+.header:hover {
+    transition-duration: 1s;
+    transform: translate(10px);
+}
